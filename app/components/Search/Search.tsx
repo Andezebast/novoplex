@@ -12,7 +12,7 @@ const Search = () => {
       <div className="games-search-input">
         <input
           type="text"
-          placeholder="...Search"
+          placeholder="...Пошук"
           onChange={handleSearchEvent}
         />
         <div className="games-search-input-svg">

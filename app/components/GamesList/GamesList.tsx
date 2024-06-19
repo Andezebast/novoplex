@@ -16,9 +16,7 @@ const GamesList = () => {
           ))}
         </div>
       ) : (
-        <div className="games-error">
-          <p>Такої гри не найдено!</p>
-        </div>
+        <div className="error">Такої гри не найдено!</div>
       )}
     </>
   );
