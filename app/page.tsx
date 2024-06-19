@@ -9,7 +9,7 @@ export default async function Page() {
     <div className="page">
       <div className="container">
         <h1>
-          Казино <span>Популярні ігри</span>
+          Казино - <span>Популярні ігри</span>
         </h1>
         <PopularGames data={data} />
       </div>

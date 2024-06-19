@@ -4,7 +4,6 @@ import { FC } from "react";
 import { useRef } from "react";
 import { Provider } from "react-redux";
 import { makeStore, AppStore } from "../../lib/store";
-import "./PopularGames.scss";
 import GamesList from "../GamesList/GamesList";
 import Search from "../Search/Search";
 import { IGames } from "@/app/types/IGames";
